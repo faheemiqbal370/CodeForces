@@ -8,6 +8,7 @@ int main(){
          cout<<n<<" - "<<m<<" = "<<n-m<<endl<<endl;
          cout<<n<<" * "<<m<<" = "<<n*m<<endl<<endl;
          cout<<n<<" / "<<m<<" = "<<n/m<<endl<<endl;
+         
          cout<<n<<" % "<<m<<" = "<<n%m<<endl<<endl;
 
 }
