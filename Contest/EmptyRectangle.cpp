@@ -2,21 +2,22 @@
 using namespace std;
 
 int main() {
-    long long int n;
-    int count=0;
-    cin>>n;
+   int n,m;
+   cin>>n>>m;
 
-     if (n == 0) {
-        cout << 1 << endl;  
-        return 0;
+   for(int i=1;i<=n;i++){ //row
+   for(int j=1;j<=m;j++){  // col
+
+    if(i==1 || i==n){
+        cout<<"^";
     }
-    while(n>0){
-        int c=n%10;
-        if(c==0){
-            count++;
-        }
-        n=n/10;
+    else if(j==1 || j==m) {
+        cout<<"^";
+    }  
+    else{
+        cout<<" ";
     }
-    cout<<count<<endl;
 }
-
+cout<<endl;
+   }
+}
