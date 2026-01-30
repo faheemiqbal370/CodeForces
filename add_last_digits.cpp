@@ -5,6 +5,7 @@ int main(){
    cin>>n>>m;
    int a,b;
    a=n%10;
+   
    b=m%10;
    cout<<a+b<<endl;
 
